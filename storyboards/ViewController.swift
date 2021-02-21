@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  storyboards
-//
-//  Created by Snowcap on 19/2/21.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
