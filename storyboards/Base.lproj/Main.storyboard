@@ -336,6 +336,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="XzQ-3s-HiO" kind="show" id="UeW-ET-kqe"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -347,11 +350,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Root View Controller" id="eum-yx-zZ2">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="vKE-Uo-DQ8"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="YA7-0F-Xy3">
-                            <connections>
-                                <segue destination="XzQ-3s-HiO" kind="show" id="XhX-5g-QzD"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="YA7-0F-Xy3"/>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KFq-f5-bOB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
